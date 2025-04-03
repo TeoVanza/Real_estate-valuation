@@ -37,7 +37,7 @@ elif scelta == "Avanzata":
     stazione = st.number_input("distanza dalla stazione in m:",min_value=0, step=1, format="%d")
     market = st.number_input("n° supermarket nelle vicinanza:",min_value=0, max_value=20, step=1, format="%d")
 
-if st.button("predici costo immobile"):
+if st.button("stima costo al metro quadro dell' immobile"):
     if scelta == "Semplice":
         riga_base = df.mean().to_frame().T  # DataFrame con una sola riga
         riga_base = df.drop('Y house price of unit area', axis=1)
