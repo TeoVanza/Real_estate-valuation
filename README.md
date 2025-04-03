@@ -18,3 +18,8 @@ ho usato un modello lineare per fare la predizione
 il link sotto è per la mappa interattiva del distretto di Sindian, New Taipei City, Taiwan con il prezzo al metro quadro delle case 
 
 https://public.tableau.com/app/profile/matteo.vanzanelli/viz/mappacasetaipeiSindianDist_/Foglio1?publish=yes
+
+# Per UI 
+
+nel terminale bisogna entrare nelle cartella scripts con "cd scripts"
+dopodiche si usa il comando "streamlit run UI.py" 
