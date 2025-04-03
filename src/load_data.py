@@ -14,6 +14,7 @@ def load_data():
     df = pd.read_excel(os.path.join(config.RAW_DATA_PATH,
                     'Real estate valuation data set.xlsx'))
     df.drop_duplicates(inplace=True)
+    df= df.drop("No", axis=1)
 
     conn = sqlite3.connect(config.DATABASE_PATH)
 
